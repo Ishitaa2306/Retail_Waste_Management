@@ -1,0 +1,11 @@
+item,item_name,category,shelf_life_days,avg_waste_pct,donation_eligible,recyclable_packaging,waste_category
+1,Crisp Gala Apple,FOOD_PRODUCE,14,0.082,True,True,ORGANIC
+2,Valencia Fresh Orange,FOOD_PRODUCE,18,0.075,True,True,ORGANIC
+3,Organic Bananas,FOOD_PRODUCE,7,0.124,True,True,ORGANIC
+4,Whole Fresh Milk 1L,FOOD_DAIRY,10,0.055,True,True,ORGANIC
+5,Pure Orange Juice 1L,FOOD_DAIRY,21,0.038,True,True,ORGANIC
+6,Honey Oat Morning Cereal,FOOD_PACKAGED,240,0.012,True,True,RECYCLABLE_CARDBOARD
+7,Surface Cleaner Detergent,HOUSEHOLD_HAZARD,730,0.005,False,False,HAZARDOUS
+8,Smart Mobile 5G 128GB,ELECTRONICS,1095,0.002,False,True,E_WASTE
+9,Slimline Laptop Notebook,ELECTRONICS,1460,0.001,False,True,E_WASTE
+10,Premium Cotton Apparel,CLOTHING,1825,0.018,True,False,DONATION

@@ -1,0 +1,20 @@
+=== SUPERMARKET DEMAND FORECASTING EVALUATION REPORT ===
+Model Algorithm     : Random Forest Regressor (100 estimators, max_depth=12)
+Training Samples    : 8980
+Testing Samples     : 1840
+Features Used       : 23
+Mean Absolute Error : 4.31 units
+Root Mean Sq Error  : 6.47 units
+R² Score            : 0.9344
+
+Feature Importance:
+ - rolling_mean_7      : 0.5079
+ - lag_7               : 0.3325
+ - lag_14              : 0.0596
+ - day_of_week         : 0.0187
+ - sin_dow             : 0.0156
+ - is_weekend          : 0.0142
+ - month               : 0.0127
+ - rolling_std_7       : 0.0069
+ - lag_1               : 0.0057
+ - day_of_month        : 0.0053

@@ -1,0 +1,22 @@
+=== EXPIRY RISK & WASTE PREDICTION EVALUATION REPORT ===
+
+1. EXPIRY RISK CLASSIFICATION (0: Fresh, 1: Near-Expiry, 2: Expired)
+Accuracy  : 99.67%
+F1-Score  : 0.9966
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       Fresh       0.99      1.00      1.00       371
+ Near Expiry       1.00      0.97      0.98        67
+     Expired       1.00      1.00      1.00       162
+
+    accuracy                           1.00       600
+   macro avg       1.00      0.99      0.99       600
+weighted avg       1.00      1.00      1.00       600
+
+==================================================
+
+2. WASTE PREDICTION REGRESSION
+MAE       : 1.60 units
+R² Score  : 0.9744
